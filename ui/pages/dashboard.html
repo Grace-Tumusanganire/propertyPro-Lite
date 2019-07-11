@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="../css/dashboard.css" />
+    <script src="../js/dashboard.js"></script>
+</head>
+
+<body>
+<div class="container">
+    <div class="tab tab1">
+        <table id="table" border="5">
+            <tr>
+            <th>House Id</th>
+            <th>Type</th>
+            <th>Status</th>
+            <th>Price</th>
+            <th>Owner Contacts</th>
+            <th>House-View</th>
+            </tr>
+        </table>
+    </div>
+    <div class="tab tab-2">
+        House Id: <input type="text" name="House Id" id="hi">
+        Type: <input type="text" name="Type" id="tp">
+        Status: <input type="text" name="Status" id="st">
+        Price: <input type="float" name="Price" id="pr">
+        Owner Contacts: <input type="text" name="Owner Contacts" id="oc">
+        House-View: <input type="text" name="House-Owner" id="hv">
+        <button onclick="addHtmlTableRow();">Add Advert</button>
+        <button>Update Details</button>
+        <button>Delete</button>
+    </div>
+</div>
+
+</body>
+</html>
