@@ -1,0 +1,11 @@
+
+.container{
+    overflow: hidden;
+}
+.tab{
+    float: left;
+}
+.tab-2{
+    margin-left:50px;
+}
+.tab  input{display: block; margin-bottom:10px }
