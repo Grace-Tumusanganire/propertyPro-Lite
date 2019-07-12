@@ -9,3 +9,18 @@
     margin-left:50px;
 }
 .tab  input{display: block; margin-bottom:10px }
+
+tr{
+    transition: all .20s ease-in-out;
+}
+tr:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+button{
+    background-color: blue;
+    opacity: 0.7;
+    border-radius: 20px;
+    color: white;
+    height: 50px;
+}

@@ -1,19 +1,12 @@
-/* .header {
-  background-color: rgb(153, 144, 144);
-  height: 80;
-  padding: 0px;
-  margin: 0px;
-  width: 100%;
-} */
-
 body {
-  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .header-logo {
   float: left;
   font-size: 30px;
-  padding: 15px 40px;
+  
   font-family: sans-serif;
   font-weight: bold;
 }
@@ -32,6 +25,7 @@ button {
   text-decoration: none;
   color: #fff;
   cursor: pointer;
+  padding: 20;
 }
 
 .header ul {
@@ -50,23 +44,25 @@ button {
 
 .wrap {
   position: relative;
-  top: 25px;
+  clear: both;
 }
 .image-show {
   opacity: 1;
 }
 .welcome {
   position: absolute;
+  clear: both;
   background: #0a1c6b;
   color: #fff;
   opacity: 0.6;
   padding: 10px;
   top: 0;
-  text-align: center;
-  margin: 500px 80px 90px 350px;
+  margin: 31% auto;
   font-family: sans-serif;
   font-weight: 1000;
   border-radius: 20px;
+  margin-left: 340px;
+    
 }
 p {
   font-size: 0.95em;
@@ -89,28 +85,13 @@ p {
   cursor: pointer;
   background-image: none;
   border: 1px solid transparent;
+  align-self: center;
 }
 
-.bg-dark-blue {
-  background-color: #0a1c6b;
-  border-color: #0a1c6b;
-  color: white;
-}
 
-.color-dark-blue {
-  color: #0a1c6b;
-}
 
-/* img {
-  display: block;
-  max-width: 100%;
- 
-  
-} */
 
-/* .padding-bottom-20px {
-  padding-bottom: 20px;
-} */
+
 
 h2,
 h3 {
@@ -121,10 +102,7 @@ a {
   text-decoration: none;
 }
 
-/* .container {
-  padding-left: 1em;
-  padding-right: 1em;
-} */
+
 
 .color-primary {
   background: #c2f5ff;
@@ -192,8 +170,7 @@ ul li:before {
   }
 }
 .footer {
-  /* left: 0;
-  bottom: 0; */
+  
   width: 100%;
   background-color: #0a1c6b;
   color: white;
@@ -201,14 +178,12 @@ ul li:before {
   padding: 10px;
   margin: 0px;
 }
-/* .footer p {
-  color: white;
-} */
+
 
 .container {
   display: inline-flex;
   padding: 30px;
-  /* border: 1px solid black; */
+
   width: 100%;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -217,7 +192,7 @@ ul li:before {
   width: 350px;
   padding: 5px;
   margin: 10px;
-  /* border: 1px solid black; */
+ 
   cursor: pointer;
 }
 .block {
