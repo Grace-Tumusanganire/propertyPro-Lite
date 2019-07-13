@@ -22,7 +22,7 @@
 
 . User can view a specific property advert.
 
-#Technnologies used
+####Technnologies used
 
 .Front-end: HTML, CSS and Javascript
 
@@ -32,7 +32,7 @@
 
 .Sysytem dependencies:Node
 
-#API endpoints
+####API endpoints
 
 POST:'/signup'
 
