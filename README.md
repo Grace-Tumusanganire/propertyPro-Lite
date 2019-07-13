@@ -2,7 +2,7 @@
 
  Property Pro Lite is a platform where people can create and/or search properties for sale or rent.
  
- #Features
+ # Features
 
 . User can sign up.
 
@@ -22,7 +22,7 @@
 
 . User can view a specific property advert.
 
-####Technnologies used
+#### Technnologies used
 
 .Front-end: HTML, CSS and Javascript
 
@@ -32,7 +32,7 @@
 
 .Sysytem dependencies:Node
 
-####API endpoints
+#### API endpoints
 
 POST:'/signup'
 
